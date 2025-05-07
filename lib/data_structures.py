@@ -32,8 +32,7 @@ def print_spicy_foods(spicy_foods):
 
 def get_spicy_food_by_cuisine(spicy_foods, cuisine):
     return next((food for food in spicy_foods if food["cuisine"] == cuisine),
-                None
-    )
+                None)
     pass
 
 def print_spiciest_foods(spicy_foods):
